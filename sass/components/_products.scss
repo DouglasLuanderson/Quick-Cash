@@ -1,0 +1,44 @@
+.products{
+    display: flex;
+    flex-direction: column;
+    padding: 15vh 5vw;
+    background-color: #0083CA;
+    color:#fff;
+
+    h1{
+        font-size: 2rem;
+    }
+    .productsBlock{
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+        div{
+            width: 15vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            margin: 8vh 2vw;
+            
+            img{
+                height: 40%;        
+            }
+        }
+    }
+}
+@media (max-width:425px){
+    .products{
+        text-align: center;
+        
+        .productsBlock{
+            flex-wrap: wrap;
+            justify-content: center;
+
+            div{
+                width: 50vw;
+            }
+        }
+    }
+}

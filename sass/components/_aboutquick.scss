@@ -1,0 +1,45 @@
+.main{
+    background: linear-gradient(to bottom, rgba(0,131,202,1) 0%, rgba(0,131,202,1) 50%, rgba(0,89,202,1) 100%);
+    
+    .about{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+
+        h1{
+            font-size: 2.7rem;
+            margin: 10vh 0 5vh 5vw;
+            color: white;
+        }
+    
+        .about-block{
+            display: flex;
+    
+            .about-block-images{
+                width: 28vw;
+                display: flex;
+                flex-direction: column;
+                margin-left: 5vw;
+    
+                img{
+                    width: 90%;
+                    margin-bottom: 5vh;
+                }
+            }
+            .about-block-text{
+                width: 30vw;
+                margin: 8vw 0 0 5vw;
+                
+                line-height: 3vh;
+
+                p{
+                    font-size: 1.2rem;
+                    margin-bottom: 5vh;
+                    line-height: 3.5vh;
+                    color: white;
+                }
+            }
+        }
+    }
+}

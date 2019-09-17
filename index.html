@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>QuickCash</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon"  href="assets/logoaba.png" >
+</head>
+<body>
+	<header id="header">
+		<div class="menu close">
+			<a class="menu-logo" href="index.html"><img src="assets/logo.svg" alt="logo"></a>
+			<nav class="navbar">
+				<a href="about.html">About us</a>
+				<a href="products.html">Our Products</a>
+				<a href="#contact">Contact</a>
+				<a class="link" href="">en/fr</a>
+			</nav>
+
+			<nav class="navbarMobile">
+				<div class="navbarMobile-text">menu</div>
+				<div class="navbarMobile-menu">
+					<div class="close">
+						<a href="" class="close-icon">X</a>
+					</div>
+					<a href="about.html">About us</a>
+					<a href="products.html">Our Products</a>
+					<a href="#contact">Contacts</a>
+					<a class="link" href="">en/fr</a>
+				</div>
+			</nav> 
+		</div>   
+		<div class="banner close">
+			<p class="banner-text">Breaking the boundaries between urban and rural areas!</p>			
+		</div>
+		<div class="banner-contact">
+				<img src="assets/noun_support_1973675.svg" alt="image button">  
+				<p class="banner-contactText">Contact</p>
+			</div>
+			<form>
+				<div class="sheet">
+					<p>contact us</p>
+					<span class="close">-</span>
+				</div>
+				<div>
+					<label for="name">Name</label>
+					<input id="name" name="name" type="text" value=""/>
+				</div>
+				<div>
+					<label for="email">Email</label>
+					<input id="email" name="email" type="text" value=""/>
+				</div>
+				<div>
+					<label for="dates">How can we help</label>
+					<textarea id="dates" name="dates" rows="8" ></textarea>
+				</div>
+				<div class="submit">
+					<input class="inputWhite close" type="reset" value="Cancel" />
+					<input class="inputRed close" type="submit" value="Send" />  
+				</div>
+			</form>					 
+	</header>
+	<main>
+		<section class="products close">
+			<h1>Our Products</h1>
+			<div class="productsBlock">
+				<div>
+					<p>Cash to Cash</p>
+					<img src="assets/cash.svg" alt="icon cash">
+					<p>Transfer of money from one individual to another</p>
+				</div>
+				<div>
+					<p>Cash to Card</p>
+					<img src="assets/cash2.svg" alt="icon cash card">
+					<p>Transfer of money from an individual onto a card</p>
+				</div>
+				<div>
+					<p>Cash to Account</p>
+					<img src="assets/cash3.svg" alt="icon cash account">
+					<p>Transfer of money from an individual to a bank account</p>
+				</div>
+				<div>
+					<p>Nos Valeurs</p>
+					<img src="assets/heart.svg" alt="icon cash valeus">
+					<p>Solidarité - Écoute Responsabilité - Volonté Innovation - Réactivité</p>
+				</div>
+			</div>
+		</section>
+		<section class="simulate">
+			<div class="convert">
+				<div class="convert-block"> 
+					<div class="convert-blockFrom">
+						<p>From:</p>
+						<span>
+							<img src=assets/globo.svg alt="countri" name="BRL">
+							<select name="countryFrom" id="from">
+								<option value="BRL">Brazil</option>
+								<option value="USD">EUA</option>
+								<option value="EUR">Inglaterra</option>
+							</select>
+						</span>
+					</div>
+					<div class="convert-blockTo">
+						<p>To:</p>
+						<span>
+							<img src=assets/globo.svg alt="country" name="EUA">
+							<select name="countryTo" id="to">
+								<option value="USD">EUA</option>
+								<option value="EUR">Inglaterra</option>
+								<option value="BRL">Brazil</option>
+							</select>
+						</span>
+					</div>
+				</div>
+				<div class="convert-values">
+					<div class="convert-valuesSend">
+						<p>Your send</p>
+						<input type="text" id="coin">
+					</div>
+					<div class="convert-valueReceive">
+						<p>They receive</p>
+						<input type="text" id="result">
+					</div>
+				</div>	
+			</div>
+			<div class="countries">
+				<h1>Simulate your transfer</h1>
+				<p>QuickCash is currently available in these countries:</p>
+				<span><img src="assets/Costa-do-marfim.png" alt="country">Ivory</span>
+				<span><img src="assets/BurkinaFaso.png" alt="Country">Burkina</span>
+				<span><img src="assets/mali.png" alt="country">Mali</span>
+				<span><img src="assets/Niger.png" alt="">Niger</span>
+				<span><img src="assets/Togo.png" alt="Country">Togo</span>
+			</div>
+		</section>
+		<section class="history">
+			<div id="slide">
+				<img class="slide-block-arrowLeft slide-block-arrowLeft--margin" src="assets/seta2.svg">
+				<img class="slide-block-arrowRight" src="assets/seta.svg">
+				<div class="slide-block">
+					<img class="slide-block-image" src="assets/depoimento1.png" alt="image remark">
+					<img class="slide-block-image" src="assets/depoimento2.png" alt="image remark">
+					<img class="slide-block-image" src="assets/depoimento3.png" alt="image remark">     
+				</div>  
+			</div>
+			<p>Writing a new page in the history of money transfer along with you!</p>
+			<div class="ballbig">
+			</div>
+			<div class="ballsmall"></div>
+		</section>
+		<section class="agencymap">
+			<img src="assets/globo.svg" alt="Image Globe">
+			<h1>Find an agency near you!</h1>
+			<div class="agencymap-search">
+				<label for="country">Country</label>
+                <select id="country" name="country" placeholder="Country">
+					<option value="France">France</option>
+					<option value="Brazil">Brazil</option>                 
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Spain">Spain</option>
+                    <option value="United States">United States</option>
+                </select>
+                
+	            <label for="state">State</label>
+	            <select name="state" id="state" placeholder="State" >
+					<option value="state">...</option>
+					
+				</select>
+
+				<label for="city">City</label>
+				<select name="city" id="city" placeholder="City" >
+					<option value="city">...</option>
+					
+				</select>
+				<button>
+					<a>SEARCH</a>	
+				</button>
+			</div>
+			<div class="agencymap-map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.2113418694178!2d-4.0189632040980525!3d5.320003834709426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1ebb8250843ed%3A0x75f3967c3b06f8e8!2sBIAO+Bank!5e0!3m2!1spt-BR!2sbr!4v1559066212137!5m2!1spt-BR!2sbr"  frameborder="0" style="border:0" allowfullscreen></iframe>
+					<p>Plateau Tour BIAO, 13th Floor - 01 BP 10804 Abidjan 01</p>
+			</div>
+		</section>
+		<section class="socialimpact" id="socialimpact">
+			<div class="socialimpact-impact">
+				<h1>Social Impact</h1>
+				<div class="socialimpact-impact-block">
+					<img  src="assets/forum-mondiale.png" alt="">
+					<div class="socialimpact-impact-blockText">
+						<p class="socialimpact-impact-subtitle">Quickcash au forum mondiale des droits de l’homme au Maroc</p>
+						<p class="socialimpact-impact-paragraph">Après le Brésil s’est déroulée au Maroc du 27 au 30 Novembre 2014, la deuxième édition du Forum mondial des droits de l’Homme. Ce Forum a rassemblé pendant 4 jours plus de 8.000 participants sur divers thématiques concernant les Droits de l’Homme.</p>
+					</div>
+				</div>
+				<div class="socialimpact-impact-block socialimpact-impact-block--reverse">
+					<img  src="assets/forum-mondiale.png" alt="">
+					<div class="socialimpact-impact-blockText">
+						<p class="socialimpact-impact-subtitle">Quickcash au forum mondiale des droits de l’homme au Maroc</p>
+						<p class="socialimpact-impact-paragraph">Après le Brésil s’est déroulée au Maroc du 27 au 30 Novembre 2014, la deuxième édition du Forum mondial des droits de l’Homme. Ce Forum a rassemblé pendant 4 jours plus de 8.000 participants sur divers thématiques concernant les Droits de l’Homme.</p>
+					</div>
+				</div>
+				<div class="socialimpact-impact-block">
+					<img  src="assets/forum-mondiale.png" alt="">
+					<div class="socialimpact-impact-blockText">
+						<p class="socialimpact-impact-subtitle">Quickcash au forum mondiale des droits de l’homme au Maroc</p>
+						<p class="socialimpact-impact-paragraph">Après le Brésil s’est déroulée au Maroc du 27 au 30 Novembre 2014, la deuxième édition du Forum mondial des droits de l’Homme. Ce Forum a rassemblé pendant 4 jours plus de 8.000 participants sur divers thématiques concernant les Droits de l’Homme.</p>
+					</div>
+				</div>
+				<button class="button">
+					<p>< Show more ></p>
+				</button>	
+			</div>
+			<div class="socialimpact-news">
+				<h1>News</h1>
+				<div class="socialimpact-news-block">
+					<p class="socialimpact-news-subtitle">Participation of Patricia Zoundi Yao, CEO of QuickCash in the seventh annual Global Entrepreneurship Summit (GES)</p>
+					<p class="socialimpact-news-text">The CEO of QuickCash, Mrs. Patricia Zoundi Yao, participated in the seventh annual Global Entrepreneurship Summit (GES), held from the 22nd to the 24th of June 2016, at Stanford University in Silicon Valley, California. This summit gathered entrepreneurs at all stages of business development and featured new commitments to promote entrepreneurship as a driver for economic growth, social inclusion, and secure communities.</p>
+				</div>
+				<div class="socialimpact-news-block socialimpact-news-block--border">
+					<p class="socialimpact-news-subtitle">Quickcash for participation in the campain « ewaste » MTN Ivory Coast</p>
+					<p class="socialimpact-news-text">Launched October 7, 2015, the campaign "EWASTE" why MTN Ivory Coast and were ERICSON partnership lasted four (4) months and ended on February 7th with a ceremony at the Pullman Hotel Plateau.</p>
+				</div>
+				<div class="socialimpact-news-block">
+					<p class="socialimpact-news-subtitle">QuickCash honored at the National Day of Excellence 2014</p>
+					<p class="socialimpact-news-text">Patricia ZOUNDI Mrs. YAO, CEO of QuickCash received the award of youth entrepreneurship on Friday 1st August at the National Day of Excellence. Held at the presidential palace, the ceremony was graced by the presence of the presidential couple, members of the government, diplomatic and responsible institution.</p>
+				</div>
+				<button>
+					<p>< Show more News ></p>
+				</button>
+			</div>
+			
+		</section>
+		<section class="partners">
+			<div class="partners-block">
+				<p>Banking Partners</p>
+				<div>
+					<img src="assets/asusu.png" alt="partner asusu">
+					<img src="assets/banque-populaire.png" alt="partner banque-populaire">
+					<img src="assets/boa-vert-bf.png" alt="partner boa-vert-bf">
+					<img src="assets/sonapost.png" alt="partner sonapost">
+ 					<img src="assets/cnce.png" alt="partner cnce">
+				</div>
+				<p>Institutional partners</p>
+				<div>					
+					<img src="assets/inovapay.png" alt="partner inovapay">
+					<img src="assets/logo2.png" alt="partner">
+					<img src="assets/moneytrans.png" alt="partner">
+					<img src="assets/stanford.png" alt="partner">
+					<img src="assets/camec.png" alt="partner">
+					<img src="assets/chamber-trust.png" alt="partner">					
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer" id="contact">
+		<div class="footer-blockimage">
+			<img src="assets/circlered.svg" alt="image circle">
+		</div>	
+		<div class="footer-blockaddress">
+			<img src="assets/logo-footer.png" alt="logo footer">
+			<div>
+				<span>
+					<img src="assets/locationicon.svg" alt="">
+					<p>Plateau Tour BIAO, 13th Floor - 01 BP 10804 Abidjan 01 </p>
+				</span>
+				<span>
+					<img src="assets/phoneicon.svg" alt="">
+					<p>Tel : (225) 20 32 25 35</p>
+				</span>
+				<span>
+					<img src="assets/emailicon.svg" alt="">
+					<p>Email : infos@quickcashci.com</p>					
+				</span>
+			</div>
+			<div class="footer-blockcopyright">
+				<p class="footer-blockcopyright-text">Copyright © 2019 QuickCash - All Rights Reserved</p>
+				<p>Developed by Vai na WEb</p>
+			</div>
+		</div>	
+		<div class="footer-blocklinks">
+			<a href="about.html">About us</a>
+			<a href="products.html">Our Products</a>
+			<a href="#socialimpact">News</a>
+			<a class="link" href="#contact">Contact</a>
+			<img src="assets/circlewhite.svg" alt="image circle">
+		</div>	
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

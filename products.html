@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>QuickCash</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon"  href="assets/logoaba.png">
+</head>
+<body>
+	<header class="header">
+		<div class="menu">
+			<a class="menu-logo" href="index.html"><img src="assets/logo.svg" alt="logo"></a>
+			<nav class="navbar">
+				<a href="about.html">About us</a>
+				<a href="products.html">Our Products</a>
+				<a href="#contact">Contact</a>
+				<a class="link" href="">en/fr</a>
+			</nav>
+
+			<nav class="navbarMobile">
+				<div class="navbarMobile-text">menu</div>
+				<div class="navbarMobile-menu">
+					<div class="close">
+						<a href="" class="close-icon">X</a>
+					</div>
+					<a href="about.html">About us</a>
+					<a href="products.html">Our Products</a>
+					<a href="#contact">Contact</a>
+					<a class="link" href="">en/fr</a>
+				</div>
+			</nav> 
+        </div> 
+    </header>
+    <main>
+        
+        <section class="products">
+            <h1>Our Products</h1>
+            <div class="productsBlock">
+                <div>
+                    <p>Cash to Cash</p>
+                    <img src="assets/cash.svg" alt="icon cash">
+                    <p>Transfer of money from one individual to another</p>
+                </div>
+                <div>
+                    <p>Cash to Card</p>
+                    <img src="assets/cash2.svg" alt="icon cash card">
+                    <p>Transfer of money from an individual onto a card</p>
+                </div>
+                <div>
+                    <p>Cash to Account</p>
+                    <img src="assets/cash3.svg" alt="icon cash account">
+                    <p>Transfer of money from an individual to a bank account</p>
+                </div>
+            </div>
+        </section>
+        <section class="simulate">
+            <div class="convert">
+                <div class="convert-block"> 
+                    <div class="convert-blockFrom">
+                        <p>From:</p>
+                        <span>
+                            <img src=assets/globo.svg alt="countri" name="BRL">
+                            <select name="countryFrom" id="from">
+                                <option value="BRL">Brazil</option>
+                                <option value="USD">EUA</option>
+                                <option value="EUR">Inglaterra</option>
+                            </select>
+                        </span>
+                    </div>
+                    <div class="convert-blockTo">
+                        <p>To:</p>
+                        <span>
+                            <img src=assets/globo.svg alt="country" name="EUA">
+                            <select name="countryTo" id="to">
+                                <option value="USD">EUA</option>
+                                <option value="EUR">Inglaterra</option>
+                                <option value="BRL">Brazil</option>
+                            </select>
+                        </span>
+                    </div>
+                </div>
+                <div class="convert-values">
+                    <div class="convert-valuesSend">
+                        <p>Your send</p>
+                        <input type="text" id="coin">
+                    </div>
+                    <div class="convert-valueReceive">
+                        <p>They receive</p>
+                        <input type="text" id="result">
+                    </div>
+                </div>	
+            </div>
+            <div class="countries">
+                <h1>Simulate your transfer</h1>
+                <p>QuickCash is currently available in these countries:</p>
+                <span><img src="assets/Costa-do-marfim.png" alt="country">Ivory</span>
+                <span><img src="assets/BurkinaFaso.png" alt="Country">Burkina</span>
+                <span><img src="assets/mali.png" alt="country">Mali</span>
+                <span><img src="assets/Niger.png" alt="">Niger</span>
+                <span><img src="assets/Togo.png" alt="Country">Togo</span>
+            </div>
+        </section>
+        <section class="agencymap">
+            <img src="assets/globo.svg" alt="Image Globe">
+            <h1>Find an agency near you!</h1>
+            <div class="agencymap-search">
+                <label for="country">Country</label>
+                <select id="country" name="country" placeholder="Country">
+                    <option value="France">France</option>
+                    <option value="Brazil">Brazil</option>                 
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Spain">Spain</option>
+                    <option value="United States">United States</option>
+                </select>
+                
+                <label for="state">State</label>
+                <select name="state" id="state" placeholder="State" >
+                    <option value="state">...</option>
+                    
+                </select>
+
+                <label for="city">City</label>
+                <select name="city" id="city" placeholder="City" >
+                    <option value="city">...</option>
+                    
+                </select>
+                <button>
+                    <a>SEARCH</a>	
+                </button>
+            </div>
+            <div class="agencymap-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.2113418694178!2d-4.0189632040980525!3d5.320003834709426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1ebb8250843ed%3A0x75f3967c3b06f8e8!2sBIAO+Bank!5e0!3m2!1spt-BR!2sbr!4v1559066212137!5m2!1spt-BR!2sbr"  frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <p>Plateau Tour BIAO, 13th Floor - 01 BP 10804 Abidjan 01</p>
+            </div>
+        </section>
+    </main> 
+    <footer class="footer" id="contact">
+        <div class="footer-blockimage">
+            <img src="assets/circlered.svg" alt="image circle">
+        </div>	
+        <div class="footer-blockaddress">
+            <img src="assets/logo-footer.png" alt="logo footer">
+            <div>
+                <span>
+                    <img src="assets/locationicon.svg" alt="">
+                    <p>Plateau Tour BIAO, 13th Floor - 01 BP 10804 Abidjan 01 </p>
+                </span>
+                <span>
+                    <img src="assets/phoneicon.svg" alt="">
+                    <p>Tel : (225) 20 32 25 35</p>
+                </span>
+                <span>
+                    <img src="assets/emailicon.svg" alt="">
+                    <p>Email : infos@quickcashci.com</p>					
+                </span>
+            </div>
+            <div class="footer-blockcopyright">
+                <p class="footer-blockcopyright-text">Copyright © 2019 QuickCash - All Rights Reserved</p>
+                <p>Developed by Vai na WEb</p>
+            </div>
+        </div>	
+        <div class="footer-blocklinks">
+                <a href="about.html">About us</a>
+                <a href="products.html">Our Products</a>                
+                <a href="index.html#socialimpact">News</a>
+                <a href="#contact">Contacts</a>
+            <img src="assets/circlewhite.svg" alt="image circle">
+        </div>	
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

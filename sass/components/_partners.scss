@@ -1,0 +1,42 @@
+.partners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0;
+
+    .partners-block{
+        width: 70vw;
+        color: rgba(107, 107, 107, 1);
+        font-weight: 300;
+        
+        div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin:2vh 0 10vh 0; 
+
+            img{
+                height: 10vh;
+            }
+        }
+         
+    }
+}
+@media (max-width:425px){
+    .partners{ 
+        padding: 0;           
+        .partners-block{
+            width: 90vw;;
+
+            div{
+                width: 90vw;
+                min-height: 40vh;
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                padding: 2%;   
+            }
+             
+        }
+    } 
+}
