@@ -10,7 +10,7 @@
         h1{
             font-size: 2.7rem;
             margin: 10vh 0 5vh 5vw;
-            color: white;
+            color: #fff;
         }
     
         .about-block{
@@ -23,21 +23,21 @@
                 margin-left: 5vw;
     
                 img{
-                    width: 80%;
-                    margin-bottom: 2vh;
+                    width: 75%;
+                    margin-bottom: 1.3vh;
                 }
             }
             .about-block-text{
                 width: 30vw;
-                margin: 8vw 0 0 5vw;
+                margin: 8vw 0;
                 
                 line-height: 3vh;
 
                 p{
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     margin-bottom: 5vh;
                     line-height: 3.5vh;
-                    color: white;
+                    color: #fff;
                 }
             }
         }
@@ -45,7 +45,7 @@
     .title-our{
         font-size: 2.7rem;
         color: #fff;
-        margin: 0 0 5vh 5vw;
+        margin: 5vh 0 5vh 5vw;
     }
     .ourvalues{
         display: flex;
@@ -93,5 +93,36 @@
        .img-heart{
            opacity: 0.2;
        }
-    }  
+    }
+    .ourBoard{
+        display: flex;
+        flex-direction: column;
+        background-color:#FCF9F9;       
+
+        div{
+            width: 80%; 
+            display: flex;
+            margin: 5vh 5vw;
+            padding: 3vh 0; 
+            border-radius:10px;
+            background-color: #fff;        
+
+            #ourBoard-text{
+                width: 50%;
+            }
+            span{
+                width: 30vw;
+                margin-left: 7vw;
+
+                img{
+                    width: 15vw;
+                    border-radius: 10%;
+                }
+                p{
+                    width: 50%;  
+                    font-size: 0.6rem;  
+                }
+            }
+        }
+    }
 }
